@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="FireFox"/>
+  <test name="Test1(failed)" parallel="tests">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="GridTestNG.GridTest.IntegrationTest.WebShopSignInTest">
+        <methods>
+          <include name="testSteps"/>
+        </methods>
+      </class> <!-- GridTestNG.GridTest.IntegrationTest.WebShopSignInTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

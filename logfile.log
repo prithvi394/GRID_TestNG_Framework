@@ -1,0 +1,16 @@
+INFO  | 2016-12-23 06:55:13 | [TestNG] IntegrationTest.WebShopSignInTest (WebShopSignInTest.java:31) - Browser invoked!!
+INFO  | 2016-12-23 06:55:16 | [TestNG] IntegrationTest.WebShopSignInTest (WebShopSignInTest.java:43) - Entered UserName and Password
+INFO  | 2016-12-23 06:55:16 | [TestNG] IntegrationTest.WebShopSignInTest (WebShopSignInTest.java:51) - AssertFailure
+INFO  | 2016-12-23 06:55:17 | [TestNG] IntegrationTest.WebShopSignInTest (WebShopSignInTest.java:60) - Browser Closed!!
+INFO  | 2016-12-23 06:57:09 | [TestNG] IntegrationTest.WebShopSignInTest (WebShopSignInTest.java:31) - Browser invoked!!
+INFO  | 2016-12-23 06:57:11 | [TestNG] IntegrationTest.WebShopSignInTest (WebShopSignInTest.java:43) - Entered UserName and Password
+INFO  | 2016-12-23 06:57:33 | [TestNG] IntegrationTest.WebShopSignInTest (WebShopSignInTest.java:49) - AssertSuccess
+INFO  | 2016-12-23 06:57:40 | [TestNG] IntegrationTest.WebShopSignInTest (WebShopSignInTest.java:61) - Browser Closed!!
+INFO  | 2016-12-23 07:18:08 | [TestNG] IntegrationTest.WebShopSignInTest3 (WebShopSignInTest3.java:31) - Browser invoked!!
+INFO  | 2016-12-23 07:18:09 | [TestNG] IntegrationTest.WebShopSignInTest (WebShopSignInTest.java:31) - Browser invoked!!
+INFO  | 2016-12-23 07:18:12 | [TestNG] IntegrationTest.WebShopSignInTest3 (WebShopSignInTest3.java:43) - Entered UserName and Password
+INFO  | 2016-12-23 07:18:12 | [TestNG] IntegrationTest.WebShopSignInTest (WebShopSignInTest.java:43) - Entered UserName and Password
+INFO  | 2016-12-23 07:18:12 | [TestNG] IntegrationTest.WebShopSignInTest (WebShopSignInTest.java:52) - AssertFailure
+INFO  | 2016-12-23 07:18:14 | [TestNG] IntegrationTest.WebShopSignInTest3 (WebShopSignInTest3.java:49) - AssertSuccess
+INFO  | 2016-12-23 07:18:15 | [TestNG] IntegrationTest.WebShopSignInTest (WebShopSignInTest.java:61) - Browser Closed!!
+INFO  | 2016-12-23 07:18:15 | [TestNG] IntegrationTest.WebShopSignInTest3 (WebShopSignInTest3.java:61) - Browser Closed!!

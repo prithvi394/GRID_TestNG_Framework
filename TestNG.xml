@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+
+  <test name="Test1">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="GridTestNG.GridTest.IntegrationTest.WebShopSignInTest"/>
+    </classes>
+   </test> 
+   
+   
+   <test name ="Test2">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="GridTestNG.GridTest.IntegrationTest.WebShopSignInTest3"/>
+    </classes>
+   </test>
+   
+   
+</suite> <!-- Suite -->
