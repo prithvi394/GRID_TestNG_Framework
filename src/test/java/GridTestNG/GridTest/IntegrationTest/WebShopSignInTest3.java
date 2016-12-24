@@ -26,7 +26,7 @@ public class WebShopSignInTest3 extends BaseGrid {
   Logger stdLog = LogManager.getLogger(WebShopSignInTest3.class);
   
   @BeforeTest  
-  public void testDeclaration() {
+  public void testDeclaration1() {
 	  BaseGrid.OpenUrl(driver, baseURL);
 	  stdLog.info("Browser invoked!!");
   }
@@ -34,7 +34,7 @@ public class WebShopSignInTest3 extends BaseGrid {
   @Test
   public void testSteps() {
 	  
-	System.out.println("I'm in teststeps!!");
+	System.out.println("I'm in teststeps 3!!");
 	WebshopHomePage wshpObj=PageFactory.initElements(driver, WebshopHomePage.class);
 	wshpObj.clickLoginLink();
 	
