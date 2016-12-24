@@ -26,7 +26,7 @@ public class WebShopSignInTest3 extends BaseGrid {
   Logger stdLog = LogManager.getLogger(WebShopSignInTest3.class);
   
   @BeforeTest  
-  public void testDeclaration() {
+  public void testDeclaration1() {
 	  BaseGrid.OpenUrl(driver, baseURL);
 	  stdLog.info("Browser invoked!!");
   }
