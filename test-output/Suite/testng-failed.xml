@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" parallel="tests">
-  <parameter name="browser" value="FireFox"/>
-  <test name="Test1(failed)" parallel="tests">
+<suite name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="GridTestNG.GridTest.HelperClass.SeleniumListeners"/>
+  </listeners>
+  <test name="Test1(failed)" parallel="classes">
     <parameter name="browser" value="FireFox"/>
     <classes>
-      <class name="GridTestNG.GridTest.IntegrationTest.WebShopSignInTest">
+      <class name="GridTestNG.GridTest.IntegrationTest.WebShopSignInTest3">
         <methods>
-          <include name="testSteps"/>
+          <include name="testDeclaration1"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- GridTestNG.GridTest.IntegrationTest.WebShopSignInTest -->
+      </class> <!-- GridTestNG.GridTest.IntegrationTest.WebShopSignInTest3 -->
+      <class name="GridTestNG.GridTest.IntegrationTest.TestNG_TestCase">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="testMethod"/>
+          <include name="testMethod1"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- GridTestNG.GridTest.IntegrationTest.TestNG_TestCase -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

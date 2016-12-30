@@ -1,38 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
+    <line>
+      <![CDATA[onStart Suite - About to begin executing Suite Suite]]>
+    </line>
+    <line>
+      <![CDATA[onStart Test - About to begin executing Test set Test1]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : WebShopSignInTest.testDeclaration]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest.testDeclaration]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : WebShopSignInTest2.testDeclaration]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest2.testDeclaration]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : WebShopSignInTest2.testSteps]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest2.testSteps]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : WebShopSignInTest.testSteps]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest.testSteps]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : WebShopSignInTest.afterClass]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest.afterClass]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : WebShopSignInTest2.afterClass]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest2.afterClass]]>
+    </line>
+    <line>
+      <![CDATA[onFinish Test - Completed executing Test set Test1]]>
+    </line>
+    <line>
+      <![CDATA[onStart Test - About to begin executing Test set Test2]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : WebShopSignInTest3.testDeclaration1]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest3.testDeclaration1]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : WebShopSignInTest4.testDeclaration]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest4.testDeclaration]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : WebShopSignInTest3.testSteps]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest3.testSteps]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : WebShopSignInTest4.testSteps]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest4.testSteps]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : WebShopSignInTest3.afterClass]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest3.afterClass]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : WebShopSignInTest4.afterClass]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest4.afterClass]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="9025" started-at="2016-12-23T12:18:06Z" finished-at="2016-12-23T12:18:15Z">
+  <suite name="Suite" duration-ms="27560" started-at="2016-12-30T18:22:10Z" finished-at="2016-12-30T18:22:38Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="8629" started-at="2016-12-23T12:18:06Z" finished-at="2016-12-23T12:18:15Z">
-      <class name="GridTestNG.GridTest.IntegrationTest.WebShopSignInTest">
-        <test-method status="PASS" signature="testDeclaration()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest@336f1079]" name="testDeclaration" is-config="true" duration-ms="2337" started-at="2016-12-23T07:18:06Z" finished-at="2016-12-23T07:18:09Z">
+    <test name="Test1" duration-ms="13525" started-at="2016-12-30T18:22:10Z" finished-at="2016-12-30T18:22:24Z">
+      <class name="GridTestNG.GridTest.IntegrationTest.WebShopSignInTest2">
+        <test-method status="PASS" signature="testSteps()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest2@fb9c7aa]" name="testSteps" duration-ms="2432" started-at="2016-12-30T13:22:14Z" finished-at="2016-12-30T13:22:16Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeclaration -->
-        <test-method status="PASS" signature="testSteps()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest@336f1079]" name="testSteps" duration-ms="3754" started-at="2016-12-23T07:18:09Z" finished-at="2016-12-23T07:18:12Z">
-          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest2.testSteps]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testSteps -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest@336f1079]" name="afterClass" is-config="true" duration-ms="2478" started-at="2016-12-23T07:18:12Z" finished-at="2016-12-23T07:18:15Z">
+      </class> <!-- GridTestNG.GridTest.IntegrationTest.WebShopSignInTest2 -->
+      <class name="GridTestNG.GridTest.IntegrationTest.WebShopSignInTest">
+        <test-method status="PASS" signature="testDeclaration()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest@72758afa]" name="testDeclaration" is-config="true" duration-ms="2029" started-at="2016-12-30T13:22:10Z" finished-at="2016-12-30T13:22:12Z">
           <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest.testDeclaration]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeclaration -->
+        <test-method status="PASS" signature="testDeclaration()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest2@fb9c7aa]" name="testDeclaration" is-config="true" duration-ms="1332" started-at="2016-12-30T13:22:12Z" finished-at="2016-12-30T13:22:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest2.testDeclaration]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeclaration -->
+        <test-method status="PASS" signature="testSteps()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest@72758afa]" name="testSteps" duration-ms="2443" started-at="2016-12-30T13:22:14Z" finished-at="2016-12-30T13:22:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest.testSteps]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSteps -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest@72758afa]" name="afterClass" is-config="true" duration-ms="4118" started-at="2016-12-30T13:22:16Z" finished-at="2016-12-30T13:22:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest.afterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest2@fb9c7aa]" name="afterClass" is-config="true" duration-ms="3560" started-at="2016-12-30T13:22:20Z" finished-at="2016-12-30T13:22:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest2.afterClass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- GridTestNG.GridTest.IntegrationTest.WebShopSignInTest -->
     </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="9025" started-at="2016-12-23T12:18:06Z" finished-at="2016-12-23T12:18:15Z">
-      <class name="GridTestNG.GridTest.IntegrationTest.WebShopSignInTest3">
-        <test-method status="PASS" signature="testDeclaration()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest3@3a4621bd]" name="testDeclaration" is-config="true" duration-ms="2129" started-at="2016-12-23T07:18:06Z" finished-at="2016-12-23T07:18:08Z">
+    <test name="Test2" duration-ms="13983" started-at="2016-12-30T18:22:24Z" finished-at="2016-12-30T18:22:38Z">
+      <class name="GridTestNG.GridTest.IntegrationTest.WebShopSignInTest4">
+        <test-method status="PASS" signature="testSteps()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest4@3a62c01e]" name="testSteps" duration-ms="3590" started-at="2016-12-30T13:22:26Z" finished-at="2016-12-30T13:22:30Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeclaration -->
-        <test-method status="PASS" signature="testSteps()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest3@3a4621bd]" name="testSteps" duration-ms="5444" started-at="2016-12-23T07:18:08Z" finished-at="2016-12-23T07:18:14Z">
-          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest4.testSteps]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testSteps -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest3@3a4621bd]" name="afterClass" is-config="true" duration-ms="1409" started-at="2016-12-23T07:18:14Z" finished-at="2016-12-23T07:18:15Z">
+      </class> <!-- GridTestNG.GridTest.IntegrationTest.WebShopSignInTest4 -->
+      <class name="GridTestNG.GridTest.IntegrationTest.WebShopSignInTest3">
+        <test-method status="PASS" signature="testDeclaration1()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest3@50fe837a]" name="testDeclaration1" is-config="true" duration-ms="1060" started-at="2016-12-30T13:22:24Z" finished-at="2016-12-30T13:22:25Z">
           <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest3.testDeclaration1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeclaration1 -->
+        <test-method status="PASS" signature="testDeclaration()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest4@3a62c01e]" name="testDeclaration" is-config="true" duration-ms="1471" started-at="2016-12-30T13:22:25Z" finished-at="2016-12-30T13:22:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest4.testDeclaration]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeclaration -->
+        <test-method status="PASS" signature="testSteps()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest3@50fe837a]" name="testSteps" duration-ms="3539" started-at="2016-12-30T13:22:26Z" finished-at="2016-12-30T13:22:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest3.testSteps]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSteps -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest3@50fe837a]" name="afterClass" is-config="true" duration-ms="3668" started-at="2016-12-30T13:22:30Z" finished-at="2016-12-30T13:22:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest3.afterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:GridTestNG.GridTest.IntegrationTest.WebShopSignInTest4@3a62c01e]" name="afterClass" is-config="true" duration-ms="4181" started-at="2016-12-30T13:22:34Z" finished-at="2016-12-30T13:22:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : WebShopSignInTest4.afterClass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- GridTestNG.GridTest.IntegrationTest.WebShopSignInTest3 -->

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" parallel="tests">
+<suite name="Suite" parallel="classes" thread-count="4">
+
+	<listeners>
+		<listener class-name="GridTestNG.GridTest.HelperClass.SeleniumListeners"></listener>
+	</listeners>
+
 
   <test name="Test1">
     <parameter name="browser" value="FireFox"/>
     <classes>
       <class name="GridTestNG.GridTest.IntegrationTest.WebShopSignInTest"/>
+      <class name="GridTestNG.GridTest.IntegrationTest.WebShopSignInTest2"/>
     </classes>
    </test> 
    
@@ -13,8 +19,10 @@
     <parameter name="browser" value="Chrome"/>
     <classes>
       <class name="GridTestNG.GridTest.IntegrationTest.WebShopSignInTest3"/>
+      <class name="GridTestNG.GridTest.IntegrationTest.WebShopSignInTest4"/>
     </classes>
    </test>
+   
    
    
 </suite> <!-- Suite -->
